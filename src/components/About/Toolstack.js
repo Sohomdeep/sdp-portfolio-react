@@ -8,7 +8,8 @@ import {
   SiLinux,
   SiVisualstudiocode,
   SiPostman,
-  SiJira
+  SiJira,
+  SiDocker
 } from "react-icons/si";
 
 function Toolstack() {
@@ -29,9 +30,9 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons" title="Jira">
         <SiJira />
       </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
-      </Col> */}
+      <Col xs={4} md={2} className="tech-icons" title="Docker">
+        <SiDocker />
+      </Col>
     </Row>
   );
 }
